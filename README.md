@@ -1,5 +1,3 @@
-ya tengo el repo que lo cree desde la pagina de github. Como puedo ahora eliminarlo para hacer bien este limpio este es el readme que habia puesto string-sso-c
-
 Small String Optimization (SSO) string library implemented in ANSI C.
 
 C Toolbox
