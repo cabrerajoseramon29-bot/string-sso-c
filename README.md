@@ -77,27 +77,51 @@ C-Toolbox/
 ├── build/
 ├── Makefile
 └── README.md
+```
 
-Build Requirements
-GCC or Clang
-GNU Make
-Linux environment
+---
+
+# Build Requirements
+
+- GCC or Clang
+- GNU Make
+- Linux environment
 
 Tested on:
 
-Arch Linux
-Linux Mint
-Zorin OS
+- Arch Linux
+- Linux Mint
+- Zorin OS
 
-Compilation
+---
+
+# Compilation
+
+```bash
 make
+```
 
-Run
+---
+
+# Run
+
+```bash
 ./c-toolbox
+```
 
-Clean Build Files
+---
+
+# Clean Build Files
+
+```bash
 make clean
-Example Usage
+```
+
+---
+
+# Example Usage
+
+```text
 Enter number of words:
 5
 
@@ -106,74 +130,102 @@ Enter number of words:
 3- hell
 4- example
 5- hello
+```
 
 Example filtered output:
 
+```text
 Found words:
 
 1- example
 2- hello
 3- world
-Complexity Notes
-Operation	Complexity
-Vector random access	O(1)
-Vector push back (amortized)	O(1)
-Vector remove at index	O(n)
-Prefix filtering	O(n * m)
-Insertion sort	O(n²)
-Technical Concepts Practiced
-Pointer arithmetic
-Dynamic memory allocation (malloc, realloc, free)
-Generic programming using void *
-Manual memory management
-Small String Optimization (SSO)
-Stack vs heap optimization
-Modular software architecture
-Data structure implementation from scratch
-Basic algorithmic complexity analysis
-Design Goals
+```
+
+---
+
+# Complexity Notes
+
+| Operation                     | Complexity |
+|------------------------------|------------|
+| Vector random access         | O(1)       |
+| Vector push back (amortized) | O(1)       |
+| Vector remove at index       | O(n)       |
+| Prefix filtering             | O(n * m)   |
+| Insertion sort               | O(n²)      |
+
+---
+
+# Technical Concepts Practiced
+
+- Pointer arithmetic
+- Dynamic memory allocation (`malloc`, `realloc`, `free`)
+- Generic programming using `void *`
+- Manual memory management
+- Small String Optimization (SSO)
+- Stack vs heap optimization
+- Modular software architecture
+- Data structure implementation from scratch
+- Basic algorithmic complexity analysis
+
+---
+
+# Design Goals
 
 This project was created to deepen understanding of:
 
-Systems programming in C
-Generic container implementation
-Low-level optimization techniques
-Separation of concerns
-Memory-safe programming practices
-Software modularization
-Project Purpose
+- Systems programming in C
+- Generic container implementation
+- Low-level optimization techniques
+- Separation of concerns
+- Memory-safe programming practices
+- Software modularization
+
+---
+
+# Project Purpose
 
 This repository is part of my personal learning path focused on:
 
-C systems programming
-Data structures and algorithms
-Linux development environment
-Low-level software engineering
-Future Improvements
+- C systems programming
+- Data structures and algorithms
+- Linux development environment
+- Low-level software engineering
+
+---
+
+# Future Improvements
 
 Planned future additions include:
 
-Generic hash table implementation
-File input/output support
-Unit testing framework
-Benchmarking utilities
-Iterator support for containers
-CLI argument parsing
-Additional sorting algorithms
-What Makes This Project Different
-No external libraries
-Fully manual memory management
-Generic reusable containers
-Clean separation between layers
-Focus on correctness and architecture
-Built as systems programming practice rather than tutorial-style code
-Author
+- Generic hash table implementation
+- File input/output support
+- Unit testing framework
+- Benchmarking utilities
+- Iterator support for containers
+- CLI argument parsing
+- Additional sorting algorithms
+
+---
+
+# What Makes This Project Different
+
+- No external libraries
+- Fully manual memory management
+- Generic reusable containers
+- Clean separation between layers
+- Focus on correctness and architecture
+- Built as systems programming practice rather than tutorial-style code
+
+---
+
+# Author
 
 Self-taught developer focused on:
 
-C programming
-Systems programming
-Data structures and algorithms
-Linux-based development
+- C programming
+- Systems programming
+- Data structures and algorithms
+- Linux-based development
 
 Currently building projects focused on low-level programming and software engineering fundamentals.
