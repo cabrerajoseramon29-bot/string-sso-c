@@ -32,7 +32,10 @@ static size_t readLon(void){
 
 static String *readPrefix(void){
     String *prefix = string_create();
-    if(!prefix)return NULL;
+    if(!prefix){
+        string_destroy(prefix);
+        return NULL;
+    }
     printf("Enter the prefix to search for.:\n");
     
     string_read(prefix);
