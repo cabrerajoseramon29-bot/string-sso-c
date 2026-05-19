@@ -24,7 +24,10 @@ static int string_start(String *s,const String *prefix){
 Vector *filter_by_length(Vector *v){
     if(!v)return NULL;
     Vector *filtered = vector_create(sizeof(String *), 0);
-    if(!filtered)return NULL;
+    if(!filtered){
+        vector_destroy(filtered);
+        return NULL;
+    }
     size_t n = vector_size(v);
     size_t max = 0;
 
